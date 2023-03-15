@@ -1,0 +1,62 @@
+{
+  "root": {
+    "Paso_1": [
+      "SET Temperatura T horno 1.0 °C ",
+      "SET Temperatura T gas in pos 2.0 °C ",
+      "SET Temperatura T gas in neg 3.0 °C "
+    ],
+    "Paso_2": [
+      "SET Válvula sol H2 Abierta ",
+      "SET Válvula sol CO2 Abierta ",
+      "SET Válvula sol CH4 Abierta ",
+      "SET Válvula sol Purga Abierta ",
+      "SET Válvula sol N2_neg Abierta ",
+      "SET Válvula sol O2 Abierta ",
+      "SET Válvula sol N2_pos Abierta ",
+      "SET Válvula sol Aire Abierta "
+    ],
+    "Paso_3": [
+      "SET Flujo H2 2.0 nl/min ",
+      "SET Flujo CO2 3.0 nl/min ",
+      "SET Flujo CO 2.0 nl/min ",
+      "SET Flujo CH4 4.0 nl/min ",
+      "SET Flujo Purga 3.0 nl/min ",
+      "SET Flujo N2_neg 4.0 nl/min ",
+      "SET Flujo O2 3.0 nl/min ",
+      "SET Flujo N2_pos 3.0 nl/min ",
+      "SET Flujo Aire 4.0 nl/min "
+    ],
+    "Paso_4": [
+      "SET Presión P out neg 5.0 Pa ",
+      "SET Presión P out pos 4.0 Pa "
+    ],
+    "Comentarios": [
+      "SET temperaturas",
+      "",
+      "",
+      "",
+      "Apertura de Valvulas",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Set flujos",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "set Presiones",
+      "",
+      ""
+    ]
+  }
+}

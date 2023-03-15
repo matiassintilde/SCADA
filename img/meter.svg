@@ -1,0 +1,33 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" xml:space="preserve"><desc>Copyright Opto 22</desc> 
+<g>
+<g id="frame">
+	<rect fill="none" width="100" height="100"></rect>
+</g>
+<g id="shape">
+	<circle fill="#999" cx="50" cy="25.042" r="25"></circle>
+	<rect x="43" y="46.17" fill="#999" width="14" height="25.978"></rect>
+	<polygon fill="#999" points="69.333,67.985 64,65.318 36,65.318 30.667,67.985 30.667,83.972 36,86.638 64,86.638 
+		69.333,83.972 	"></polygon>
+	<rect x="0" y="66.478" fill="#999" width="5.667" height="19"></rect>
+	<rect x="94.333" y="66.478" fill="#999" width="5.667" height="19"></rect>
+	<rect x="0" y="67.985" fill="#999" width="100" height="15.987"></rect>
+</g>
+<g id="dark">
+	<circle fill="#4d4d4d" cx="50" cy="25.042" r="24"></circle>
+	<rect x="0" y="68.984" fill="#4d4d4d" width="100" height="13.988"></rect>
+	<rect x="44" y="43.525" fill="#4d4d4d" width="12" height="26.767"></rect>
+	<polygon fill="#4d4d4d" points="68.833,68.985 63.5,66.318 36.5,66.318 31.167,68.985 31.167,82.972 36.5,85.638 63.5,85.638 
+		68.833,82.972 	"></polygon>
+</g>
+<g id="light">
+	<circle fill="#ccc" cx="50" cy="25.042" r="22"></circle>
+	<rect x="0" y="70.983" fill="#ccc" width="100" height="9.992"></rect>
+	<rect x="45.5" y="41.538" fill="#ccc" width="9" height="30.409"></rect>
+</g>
+<g id="hlight">
+	<polygon fill="#fff" points="56.35,72.481 54.5,73.361 45.5,73.361 43.65,72.481 0,72.481 0,79.475 43.65,79.475 45.5,78.596 
+		54.5,78.596 56.35,79.475 100,79.475 100,72.481 	"></polygon>
+	<circle fill="#fff" cx="50" cy="25.042" r="20.5"></circle>
+</g>
+</g>
+</svg>

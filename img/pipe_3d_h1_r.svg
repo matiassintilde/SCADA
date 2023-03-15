@@ -1,0 +1,19 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" xml:space="preserve"><desc>Copyright Opto 22</desc> 
+<g style="transform-origin: 0px 0px" transform="translate(100,0) rotate(90) scale(1,1)">
+<g id="frame">
+	<rect fill="none" width="100" height="100"></rect>
+</g>
+<g id="shape">
+	<rect y="42" fill="#006837" width="100" height="16"></rect>
+</g>
+<g id="dark">
+	<rect y="43" fill="#009245" width="100" height="14"></rect>
+</g>
+<g id="light">
+	<rect y="45" fill="#96D48D" width="100" height="10"></rect>
+</g>
+<g id="hlight">
+	<rect y="46.5" fill="#FFFFFF" width="100" height="7"></rect>
+</g>
+</g>
+</svg>

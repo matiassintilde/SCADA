@@ -1,0 +1,11 @@
+Prueba de filtro
+Enviado : 0
+Recibido : 129.00
+Enviado : 5
+Recibido : 0.00
+Enviado : 10
+Recibido : 5.00
+Enviado : 15
+Recibido : 10.00
+Enviado : 20
+Recibido : 14.00

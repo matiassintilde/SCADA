@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Tips</class>
+ <widget class="QDialog" name="Tips">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>535</width>
+    <height>349</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Tips</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(211, 211, 211);
+</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <item row="0" column="0">
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="1" column="2">
+      <widget class="QPushButton" name="pushButton_Empezar">
+       <property name="text">
+        <string>Empezar</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0" colspan="3">
+      <widget class="QLabel" name="label_Tips">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(241, 241, 241);
+border:1px solid  #afaaf2;
+border-radius:35;
+padding:auto;</string>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:medium; font-weight:600;&quot;&gt;Bienvenido a la plataforma de Testeo de SOFC.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Antes de empezar a usar el prgrama es necesario aprender&lt;br/&gt;algunas cosas. &lt;/p&gt;&lt;ol style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Para el control de la plataforma hace falta realizar una conexión&lt;br/&gt;con el PLC. Esto se hace desde la barra de menú superior.&lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Red--&amp;gt;Conectar&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Navegue por las diferentes secciones de la plataforma para&lt;br/&gt;controlar variables, elegir rutinas o analizar los datos mediante&lt;br/&gt;gráficos en tiempo real. &lt;/li&gt;&lt;/ol&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+       </property>
+       <property name="margin">
+        <number>15</number>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QPushButton" name="pushButton_Siguiente">
+       <property name="styleSheet">
+        <string notr="true">border</string>
+       </property>
+       <property name="text">
+        <string>Siguiente tip</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QCheckBox" name="checkBox">
+       <property name="text">
+        <string>Mostrar al inicio</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton_Empezar</sender>
+   <signal>clicked()</signal>
+   <receiver>Tips</receiver>
+   <slot>hide()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>522</x>
+     <y>336</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>438</x>
+     <y>-3</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

@@ -1,0 +1,30 @@
+{
+  "root": {
+    "Paso_1": [
+      "SET Temperatura T horno 500.0 °C "
+    ],
+    "Paso_2": [
+      "SET Válvula sol H2 Abierta",
+      "SET Válvula sol O2 Abierta"
+    ],
+    "Paso_3": [
+      "SET Flujo H2 0.2 nl/min ",
+      "SET Flujo O2 0.6 nl/min "
+    ],
+    "Paso_4": [
+      "Rampa de Corriente:Corriente 1.0 A en 50 segundos "
+    ],
+    "Comentarios": [
+      "Horno a 500°C",
+      "",
+      "Apertura de Válvulas solenoides",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  }
+}

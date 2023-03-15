@@ -1,0 +1,22 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" xml:space="preserve"><desc>Copyright Opto 22</desc> 
+<g>
+	<g id="frame">
+		<rect x="0" fill="none" width="100" height="100"></rect>
+	</g>
+	<g id="shape">
+		<circle fill="#006837" cx="50" cy="50" r="40"></circle>
+		<rect x="43" fill="#006837" width="14" height="26"></rect>
+	</g>
+	<g id="dark">
+		<circle fill="#009245" cx="50" cy="50" r="39"></circle>
+		<rect x="44" fill="#009245" width="12" height="26.8"></rect>
+	</g>
+	<g id="light">
+		<circle fill="#96D48D" cx="50" cy="50" r="37.5"></circle>
+		<rect x="45.5" fill="#96D48D" width="9" height="30.4"></rect>
+	</g>
+	<g id="hlight">
+		<circle fill="#FFFFFF" cx="50" cy="50" r="36"></circle>
+	</g>
+</g>
+</svg>

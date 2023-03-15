@@ -1,0 +1,13 @@
+{
+  "root": {
+    "Paso_1": [
+      "SET Temperatura T horno 18.0 °C ",
+      "Rampa de Temperatura:T horno 16.0 °C en 13 segundos "
+    ],
+    "Comentarios": [
+      "",
+      "",
+      ""
+    ]
+  }
+}

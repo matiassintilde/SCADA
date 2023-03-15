@@ -1,0 +1,623 @@
+## System ID,Tag Name,Retentive Mode,Initial Value,MODBUS Start Address,MODBUS End Address,Number of Characters,Number of Rows,Number of Columns,Wiring Label,Comment,Forceable,Init Forced,Init Force Value,Remote Access,I/O Address,Data Type,Structure Type,BOW Details
+## 3.0
+SBR-001008,"1 Minute Bit",false,"False",,,,,,,"On for 30 seconds and Off for 30 seconds",,,,false,,"SBR",,false
+SBR-001009,"2 Second Bit",false,"False",,,,,,,"On for 1 second and Off for 1 second",,,,false,,"SBR",,false
+AIF32-0.1.5.1,"AIF32-0.1.5.1",false,"0.0",300001,300002,,,,,,false,false,"0.0",false,"AIF32-0.1.5.1","AIF32",,false
+AIF32-0.1.5.2,"AIF32-0.1.5.2",false,"0.0",300003,300004,,,,,,false,false,"0.0",false,"AIF32-0.1.5.2","AIF32",,false
+AIF32-0.1.5.3,"AIF32-0.1.5.3",false,"0.0",,,,,,,,false,false,"0.0",false,"AIF32-0.1.5.3","AIF32",,false
+AIF32-0.1.5.4,"AIF32-0.1.5.4",false,"0.0",,,,,,,,false,false,"0.0",false,"AIF32-0.1.5.4","AIF32",,false
+AIS32-0.1.4.1,"AIS32-0.1.4.1",false,"0",,,,,,,,false,false,"0",false,"AIS32-0.1.4.1","AIS32",,false
+AIS32-0.1.4.2,"AIS32-0.1.4.2",false,"0",,,,,,,,false,false,"0",false,"AIS32-0.1.4.2","AIS32",,false
+AIS32-0.1.4.3,"AIS32-0.1.4.3",false,"0",,,,,,,,false,false,"0",false,"AIS32-0.1.4.3","AIS32",,false
+AIS32-0.1.4.4,"AIS32-0.1.4.4",false,"0",,,,,,,,false,false,"0",false,"AIS32-0.1.4.4","AIS32",,false
+AIS32-0.1.4.5,"AIS32-0.1.4.5",false,"0",,,,,,,,false,false,"0",false,"AIS32-0.1.4.5","AIS32",,false
+AIS32-0.1.4.6,"AIS32-0.1.4.6",false,"0",,,,,,,,false,false,"0",false,"AIS32-0.1.4.6","AIS32",,false
+AIS32-0.1.4.7,"AIS32-0.1.4.7",false,"0",,,,,,,,false,false,"0",false,"AIS32-0.1.4.7","AIS32",,false
+AIS32-0.1.4.8,"AIS32-0.1.4.8",false,"0",,,,,,,,false,false,"0",false,"AIS32-0.1.4.8","AIS32",,false
+AOS32-0.1.2.1,"AOS32-0.1.2.1",false,"0",,,,,,,,false,false,"0",false,"AOS32-0.1.2.1","AOS32",,false
+AOS32-0.1.2.2,"AOS32-0.1.2.2",false,"0",,,,,,,,false,false,"0",false,"AOS32-0.1.2.2","AOS32",,false
+AOS32-0.1.2.3,"AOS32-0.1.2.3",false,"0",,,,,,,,false,false,"0",false,"AOS32-0.1.2.3","AOS32",,false
+AOS32-0.1.2.4,"AOS32-0.1.2.4",false,"0",,,,,,,,false,false,"0",false,"AOS32-0.1.2.4","AOS32",,false
+AOS32-0.1.2.5,"AOS32-0.1.2.5",false,"0",,,,,,,,false,false,"0",false,"AOS32-0.1.2.5","AOS32",,false
+AOS32-0.1.2.6,"AOS32-0.1.2.6",false,"0",,,,,,,,false,false,"0",false,"AOS32-0.1.2.6","AOS32",,false
+AOS32-0.1.2.7,"AOS32-0.1.2.7",false,"0",,,,,,,,false,false,"0",false,"AOS32-0.1.2.7","AOS32",,false
+AOS32-0.1.2.8,"AOS32-0.1.2.8",false,"0",,,,,,,,false,false,"0",false,"AOS32-0.1.2.8","AOS32",,false
+SBR-001002,"Always Off Bit",false,"False",,,,,,,"always off",,,,false,,"SBR",,false
+SBR-001017,"Array out of range error",false,"False",,,,,,,"On if an array index is outside the range of the array",,,,false,,"SBR",,false
+SWR-001514,"Array range error rung location",false,"0",,,,,,,"Rung Number in which ""Array out of range error"" occurred",,,,false,,"SWR",,false
+SWR-001513,"Array range error task location",false,"0",,,,,,,"Task Number in which ""Array out of range error"" occurred",,,,false,,"SWR",,false
+SWR-001506,"Avg Logic Scan Time [x100=usec]",false,"0",,,,,,,"average logic scan time",,,,false,,"SWR",,false
+SWR-001503,"Avg Scan Interval [x100=usec]",false,"0",,,,,,,"average overall scan time",,,,false,,"SWR",,false
+SBR-001006,"Battery Disabled",false,"False",,,,,,,"On if the ""CPU Battery Alarm"" is disabled in H/W Configuration",,,,false,,"SBR",,false
+SBR-001005,"Battery Low Bit",false,"False",,,,,,,"On if the battery is weak (""CPU Battery Alarm"" in H/W Configuration)",,,,false,,"SBR",,false
+SWR-001518,"Battery Voltage",false,"0",,,,,,,"battery voltage in 10ths of a volt",,,,false,,"SWR",,false
+SSTR-000041,"CPU Event Log String 01",false,,,,50,,,,"most recent CPU event log message",,,,false,,"SSTR",,false
+SSTR-000042,"CPU Event Log String 02",false,,,,50,,,,"2nd most recent CPU event log message",,,,false,,"SSTR",,false
+SSTR-000043,"CPU Event Log String 03",false,,,,50,,,,"3rd most recent CPU event log message",,,,false,,"SSTR",,false
+SSTR-000044,"CPU Event Log String 04",false,,,,50,,,,"4th most recent CPU event log message",,,,false,,"SSTR",,false
+SSTR-000045,"CPU Event Log String 05",false,,,,50,,,,"5th most recent CPU event log message",,,,false,,"SSTR",,false
+SSTR-000046,"CPU Event Log String 06",false,,,,50,,,,"6th most recent CPU event log message",,,,false,,"SSTR",,false
+SSTR-000047,"CPU Event Log String 07",false,,,,50,,,,"7th most recent CPU event log message",,,,false,,"SSTR",,false
+SSTR-000048,"CPU Event Log String 08",false,,,,50,,,,"8th most recent CPU event log message",,,,false,,"SSTR",,false
+SSTR-000049,"CPU Event Log String 09",false,,,,50,,,,"9th most recent CPU event log message",,,,false,,"SSTR",,false
+SSTR-000050,"CPU Event Log String 10",false,,,,50,,,,"10th most recent CPU event log message",,,,false,,"SSTR",,false
+SSTR-000051,"CPU Event Log String 11",false,,,,50,,,,"11th most recent CPU event log message",,,,false,,"SSTR",,false
+SSTR-000052,"CPU Event Log String 12",false,,,,50,,,,"12th most recent CPU event log message",,,,false,,"SSTR",,false
+SSTR-000053,"CPU Event Log String 13",false,,,,50,,,,"13th most recent CPU event log message",,,,false,,"SSTR",,false
+SSTR-000054,"CPU Event Log String 14",false,,,,50,,,,"14th most recent CPU event log message",,,,false,,"SSTR",,false
+SSTR-000055,"CPU Event Log String 15",false,,,,50,,,,"15th most recent CPU event log message",,,,false,,"SSTR",,false
+SSTR-000056,"CPU Event Log String 16",false,,,,50,,,,"16th most recent CPU event log message",,,,false,,"SSTR",,false
+SSTR-000057,"CPU Event Log String 17",false,,,,50,,,,"17th most recent CPU event log message",,,,false,,"SSTR",,false
+SSTR-000058,"CPU Event Log String 18",false,,,,50,,,,"18th most recent CPU event log message",,,,false,,"SSTR",,false
+SSTR-000059,"CPU Event Log String 19",false,,,,50,,,,"19th most recent CPU event log message",,,,false,,"SSTR",,false
+SSTR-000060,"CPU Event Log String 20",false,,,,50,,,,"20th most recent CPU event log message",,,,false,,"SSTR",,false
+SSTR-000101,"CPU Model Name",false,,,,50,,,,"CPU Model (ex: ""P3-550"")",,,,false,,"SSTR",,false
+SSTR-000102,"CPU Program File Name",false,,,,50,,,,"CPU program file name",,,,false,,"SSTR",,false
+SBR-001001,"CPU in Run",false,"False",100001,100001,,,,,"On during Run or Debug mode",,,,false,,"SBR",,false
+SWR-001523,"Clock Day",false,"0",,,,,,,"current Real Time Clock Calendar Day",,,,false,,"SWR",,false
+SWRW-001754,"Clock Day Set",false,"0",,,,,,,"new Real Time Clock Day (set all 3 date values then set ""Initiate_New_Date"" on)",,,,false,,"SWRW",,false
+SWR-001522,"Clock Day of Week",false,"0",,,,,,,"current Real Time Clock Day of the week (1=Mon ...7=Sun)",,,,false,,"SWR",,false
+SWR-001521,"Clock Hours",false,"0",,,,,,,"current Real Time Clock Hours",,,,false,,"SWR",,false
+SWRW-001753,"Clock Hours Set",false,"0",,,,,,,"new Real Time Clock Hours (set all 3 time values then set ""Initiate_New_Time"" on)",,,,false,,"SWRW",,false
+SWR-001520,"Clock Minutes",false,"0",,,,,,,"current Real Time Clock Minutes",,,,false,,"SWR",,false
+SWRW-001752,"Clock Minutes Set",false,"0",,,,,,,"new Real Time Clock Minutes (set all 3 time values then set ""Initiate_New_Time"" on)",,,,false,,"SWRW",,false
+SWR-001524,"Clock Month",false,"0",,,,,,,"current Real Time Clock Calendar Month",,,,false,,"SWR",,false
+SWRW-001755,"Clock Month Set",false,"0",,,,,,,"new Real Time Clock Month (set all 3 date values then set ""Initiate_New_Date"" on)",,,,false,,"SWRW",,false
+SWR-001519,"Clock Seconds",false,"0",,,,,,,"current Real Time Clock Seconds",,,,false,,"SWR",,false
+SWRW-001751,"Clock Seconds Set",false,"0",,,,,,,"new Real Time Clock Seconds (set all 3 time values then set ""Initiate_New_Time"" on)",,,,false,,"SWRW",,false
+SWR-001525,"Clock Year",false,"0",,,,,,,"current Real Time Clock Calendar Year",,,,false,,"SWR",,false
+SWRW-001756,"Clock Year Set",false,"0",,,,,,,"new Real Time Clock Year (set all 3 date values then set ""Initiate_New_Date"" on)",,,,false,,"SWRW",,false
+C-000111,"Closed",false,"False",,,,,,,,false,false,"False",false,,"C",,false
+SBR-001012,"Critical Error Bit",false,"False",,,,,,,"On when a critical error is active",,,,false,,"SBR",,false
+SWR-000001,"Critical Error Log 01",false,"0",,,,,,,"most recent critical error",,,,false,,"SWR",,false
+SWR-000002,"Critical Error Log 02",false,"0",,,,,,,"2nd most recent critical error",,,,false,,"SWR",,false
+SWR-000003,"Critical Error Log 03",false,"0",,,,,,,"3rd most recent critical error",,,,false,,"SWR",,false
+SWR-000004,"Critical Error Log 04",false,"0",,,,,,,"4th most recent critical error",,,,false,,"SWR",,false
+SWR-000005,"Critical Error Log 05",false,"0",,,,,,,"5th most recent critical error",,,,false,,"SWR",,false
+SWR-000006,"Critical Error Log 06",false,"0",,,,,,,"6th most recent critical error",,,,false,,"SWR",,false
+SWR-000007,"Critical Error Log 07",false,"0",,,,,,,"7th most recent critical error",,,,false,,"SWR",,false
+SWR-000008,"Critical Error Log 08",false,"0",,,,,,,"8th most recent critical error",,,,false,,"SWR",,false
+SWR-000009,"Critical Error Log 09",false,"0",,,,,,,"9th most recent critical error",,,,false,,"SWR",,false
+SWR-000010,"Critical Error Log 10",false,"0",,,,,,,"10th most recent critical error",,,,false,,"SWR",,false
+SWR-000011,"Critical Error Log 11",false,"0",,,,,,,"11th most recent critical error",,,,false,,"SWR",,false
+SWR-000012,"Critical Error Log 12",false,"0",,,,,,,"12th most recent critical error",,,,false,,"SWR",,false
+SWR-000013,"Critical Error Log 13",false,"0",,,,,,,"13th most recent critical error",,,,false,,"SWR",,false
+SWR-000014,"Critical Error Log 14",false,"0",,,,,,,"14th most recent critical error",,,,false,,"SWR",,false
+SWR-000015,"Critical Error Log 15",false,"0",,,,,,,"15th most recent critical error",,,,false,,"SWR",,false
+SWR-000016,"Critical Error Log 16",false,"0",,,,,,,"16th most recent critical error",,,,false,,"SWR",,false
+SWR-000017,"Critical Error Log 17",false,"0",,,,,,,"17th most recent critical error",,,,false,,"SWR",,false
+SWR-000018,"Critical Error Log 18",false,"0",,,,,,,"18th most recent critical error",,,,false,,"SWR",,false
+SWR-000019,"Critical Error Log 19",false,"0",,,,,,,"19th most recent critical error",,,,false,,"SWR",,false
+SWR-000020,"Critical Error Log 20",false,"0",,,,,,,"20th most recent critical error",,,,false,,"SWR",,false
+SSTR-000001,"Critical Error Log String 01",false,,,,50,,,,"most recent critical error message",,,,false,,"SSTR",,false
+SSTR-000002,"Critical Error Log String 02",false,,,,50,,,,"2nd most recent critical error message",,,,false,,"SSTR",,false
+SSTR-000003,"Critical Error Log String 03",false,,,,50,,,,"3rd most recent critical error message",,,,false,,"SSTR",,false
+SSTR-000004,"Critical Error Log String 04",false,,,,50,,,,"4th most recent critical error message",,,,false,,"SSTR",,false
+SSTR-000005,"Critical Error Log String 05",false,,,,50,,,,"5th most recent critical error message",,,,false,,"SSTR",,false
+SSTR-000006,"Critical Error Log String 06",false,,,,50,,,,"6th most recent critical error message",,,,false,,"SSTR",,false
+SSTR-000007,"Critical Error Log String 07",false,,,,50,,,,"7th most recent critical error message",,,,false,,"SSTR",,false
+SSTR-000008,"Critical Error Log String 08",false,,,,50,,,,"8th most recent critical error message",,,,false,,"SSTR",,false
+SSTR-000009,"Critical Error Log String 09",false,,,,50,,,,"9th most recent critical error message",,,,false,,"SSTR",,false
+SSTR-000010,"Critical Error Log String 10",false,,,,50,,,,"10th most recent critical error message",,,,false,,"SSTR",,false
+SSTR-000011,"Critical Error Log String 11",false,,,,50,,,,"11th most recent critical error message",,,,false,,"SSTR",,false
+SSTR-000012,"Critical Error Log String 12",false,,,,50,,,,"12th most recent critical error message",,,,false,,"SSTR",,false
+SSTR-000013,"Critical Error Log String 13",false,,,,50,,,,"13th most recent critical error message",,,,false,,"SSTR",,false
+SSTR-000014,"Critical Error Log String 14",false,,,,50,,,,"14th most recent critical error message",,,,false,,"SSTR",,false
+SSTR-000015,"Critical Error Log String 15",false,,,,50,,,,"15th most recent critical error message",,,,false,,"SSTR",,false
+SSTR-000016,"Critical Error Log String 16",false,,,,50,,,,"16th most recent critical error message",,,,false,,"SSTR",,false
+SSTR-000017,"Critical Error Log String 17",false,,,,50,,,,"17th most recent critical error message",,,,false,,"SSTR",,false
+SSTR-000018,"Critical Error Log String 18",false,,,,50,,,,"18th most recent critical error message",,,,false,,"SSTR",,false
+SSTR-000019,"Critical Error Log String 19",false,,,,50,,,,"19th most recent critical error message",,,,false,,"SSTR",,false
+SSTR-000020,"Critical Error Log String 20",false,,,,50,,,,"20th most recent critical error message",,,,false,,"SSTR",,false
+SWR-001510,"Current Critical Error",false,"0",,,,,,,"current critical error number",,,,false,,"SWR",,false
+SWR-001516,"Current I/O Config Error Base",false,"0",,,,,,,"I/O base in which ""I/O Configuration Error"" occurred",,,,false,,"SWR",,false
+SWR-001515,"Current I/O Config Error Group",false,"0",,,,,,,"I/O group in which ""I/O Configuration Error"" occurred",,,,false,,"SWR",,false
+SWR-001517,"Current I/O Config Error Slot",false,"0",,,,,,,"I/O slot in which ""I/O Configuration Error"" occurred",,,,false,,"SWR",,false
+SWR-001511,"Current Non-critical Error",false,"0",,,,,,,"current noncritical error number",,,,false,,"SWR",,false
+DI-0.1.3.1,"DI-0.1.3.1",false,"False",,,,,,,,false,false,"False",false,"DI-0.1.3.1","DI",,false
+DI-0.1.3.10,"DI-0.1.3.10",false,"False",,,,,,,,false,false,"False",false,"DI-0.1.3.10","DI",,false
+DI-0.1.3.11,"DI-0.1.3.11",false,"False",,,,,,,,false,false,"False",false,"DI-0.1.3.11","DI",,false
+DI-0.1.3.12,"DI-0.1.3.12",false,"False",,,,,,,,false,false,"False",false,"DI-0.1.3.12","DI",,false
+DI-0.1.3.13,"DI-0.1.3.13",false,"False",,,,,,,,false,false,"False",false,"DI-0.1.3.13","DI",,false
+DI-0.1.3.14,"DI-0.1.3.14",false,"False",,,,,,,,false,false,"False",false,"DI-0.1.3.14","DI",,false
+DI-0.1.3.15,"DI-0.1.3.15",false,"False",,,,,,,,false,false,"False",false,"DI-0.1.3.15","DI",,false
+DI-0.1.3.16,"DI-0.1.3.16",false,"False",,,,,,,,false,false,"False",false,"DI-0.1.3.16","DI",,false
+DI-0.1.3.2,"DI-0.1.3.2",false,"False",,,,,,,,false,false,"False",false,"DI-0.1.3.2","DI",,false
+DI-0.1.3.3,"DI-0.1.3.3",false,"False",,,,,,,,false,false,"False",false,"DI-0.1.3.3","DI",,false
+DI-0.1.3.4,"DI-0.1.3.4",false,"False",,,,,,,,false,false,"False",false,"DI-0.1.3.4","DI",,false
+DI-0.1.3.5,"DI-0.1.3.5",false,"False",,,,,,,,false,false,"False",false,"DI-0.1.3.5","DI",,false
+DI-0.1.3.6,"DI-0.1.3.6",false,"False",,,,,,,,false,false,"False",false,"DI-0.1.3.6","DI",,false
+DI-0.1.3.7,"DI-0.1.3.7",false,"False",,,,,,,,false,false,"False",false,"DI-0.1.3.7","DI",,false
+DI-0.1.3.8,"DI-0.1.3.8",false,"False",,,,,,,,false,false,"False",false,"DI-0.1.3.8","DI",,false
+DI-0.1.3.9,"DI-0.1.3.9",false,"False",,,,,,,,false,false,"False",false,"DI-0.1.3.9","DI",,false
+DO-0.1.1.1,"DO-0.1.1.1",false,"False",,,,,,,,false,false,"False",false,"DO-0.1.1.1","DO",,false
+DO-0.1.1.10,"DO-0.1.1.10",false,"False",,,,,,,,false,false,"False",false,"DO-0.1.1.10","DO",,false
+DO-0.1.1.11,"DO-0.1.1.11",false,"False",,,,,,,,false,false,"False",false,"DO-0.1.1.11","DO",,false
+DO-0.1.1.12,"DO-0.1.1.12",false,"False",,,,,,,,false,false,"False",false,"DO-0.1.1.12","DO",,false
+DO-0.1.1.13,"DO-0.1.1.13",false,"False",,,,,,,,false,false,"False",false,"DO-0.1.1.13","DO",,false
+DO-0.1.1.14,"DO-0.1.1.14",false,"False",,,,,,,,false,false,"False",false,"DO-0.1.1.14","DO",,false
+DO-0.1.1.15,"DO-0.1.1.15",false,"False",,,,,,,,false,false,"False",false,"DO-0.1.1.15","DO",,false
+DO-0.1.1.2,"DO-0.1.1.2",false,"False",,,,,,,,false,false,"False",false,"DO-0.1.1.2","DO",,false
+DO-0.1.1.3,"DO-0.1.1.3",false,"False",,,,,,,,false,false,"False",false,"DO-0.1.1.3","DO",,false
+DO-0.1.1.4,"DO-0.1.1.4",false,"False",,,,,,,,false,false,"False",false,"DO-0.1.1.4","DO",,false
+DO-0.1.1.5,"DO-0.1.1.5",false,"False",,,,,,,,false,false,"False",false,"DO-0.1.1.5","DO",,false
+DO-0.1.1.6,"DO-0.1.1.6",false,"False",,,,,,,,false,false,"False",false,"DO-0.1.1.6","DO",,false
+DO-0.1.1.7,"DO-0.1.1.7",false,"False",,,,,,,,false,false,"False",false,"DO-0.1.1.7","DO",,false
+DO-0.1.1.8,"DO-0.1.1.8",false,"False",,,,,,,,false,false,"False",false,"DO-0.1.1.8","DO",,false
+DO-0.1.1.9,"DO-0.1.1.9",false,"False",,,,,,,,false,false,"False",false,"DO-0.1.1.9","DO",,false
+SSTRUC-000019,"Drum_struc",false,,,,,,,,"System Structure for Drum",,,,false,,"SSTRUC","DRM",false
+C-000124,"Drum_struc.Done",false,"False",,,,,,,,false,false,"False",false,,"C","DRM",false
+C-000125,"Drum_struc.Output01",false,"False",,,,,,,,false,false,"False",false,,"C","DRM",false
+C-000126,"Drum_struc.Output02",false,"False",,,,,,,,false,false,"False",false,,"C","DRM",false
+C-000127,"Drum_struc.Output03",false,"False",,,,,,,,false,false,"False",false,,"C","DRM",false
+C-000128,"Drum_struc.Output04",false,"False",,,,,,,,false,false,"False",false,,"C","DRM",false
+C-000129,"Drum_struc.Output05",false,"False",,,,,,,,false,false,"False",false,,"C","DRM",false
+C-000130,"Drum_struc.Output06",false,"False",,,,,,,,false,false,"False",false,,"C","DRM",false
+C-000131,"Drum_struc.Output07",false,"False",,,,,,,,false,false,"False",false,,"C","DRM",false
+C-000132,"Drum_struc.Output08",false,"False",,,,,,,,false,false,"False",false,,"C","DRM",false
+C-000133,"Drum_struc.Output09",false,"False",,,,,,,,false,false,"False",false,,"C","DRM",false
+C-000134,"Drum_struc.Output10",false,"False",,,,,,,,false,false,"False",false,,"C","DRM",false
+C-000135,"Drum_struc.Output11",false,"False",,,,,,,,false,false,"False",false,,"C","DRM",false
+C-000136,"Drum_struc.Output12",false,"False",,,,,,,,false,false,"False",false,,"C","DRM",false
+C-000137,"Drum_struc.Output13",false,"False",,,,,,,,false,false,"False",false,,"C","DRM",false
+C-000138,"Drum_struc.Output14",false,"False",,,,,,,,false,false,"False",false,,"C","DRM",false
+C-000139,"Drum_struc.Output15",false,"False",,,,,,,,false,false,"False",false,,"C","DRM",false
+C-000140,"Drum_struc.Output16",false,"False",,,,,,,,false,false,"False",false,,"C","DRM",false
+S32-000001,"Drum_struc.StepNum",false,"0",,,,,,,,false,false,"0",false,,"S32","DRM",false
+S32-000002,"Drum_struc.StepTime",false,"0",,,,,,,,false,false,"0",false,,"S32","DRM",false
+C-000149,"E_stop",false,"False",,,,,,,,false,false,"False",false,,"C",,false
+SWR-001526,"Ethernet Speed [External]",false,"0",,,,,,,"""Ethernet"" port speed (Ethernet 10 or 100)",,,,false,,"SWR",,false
+SWR-001527,"Ethernet Speed [Internal]",false,"0",,,,,,,"""Remote I/O"" port speed (Ethernet 10 or 100)",,,,false,,"SWR",,false
+SBR-001004,"Every Other Scan Bit",false,"False",,,,,,,"toggles at the start of each scan",,,,false,,"SBR",,false
+SWR-001509,"Firmware Version",false,"0",,,,,,,"CPU Firmware Version Number in Hex (ex: 0x0102 is version 01.02 or 1.2)",,,,false,,"SWR",,false
+SSTR-000104,"Firmware Version[CPU]",false,,,,50,,,,"CPU firmware version viewed as 001.000.009.023",,,,false,,"SSTR",,false
+SWR-001528,"Firmware Version[major]",false,"0",,,,,,,"CPU firmware Major version number in hex. (ex:  0x0100 =  major version 1.0)",,,,false,,"SWR",,false
+SWR-001529,"Firmware Version[minor]",false,"0",,,,,,,"CPU firmware Minor version number in hex. (ex: 0x0917 = minor version 9.23)",,,,false,,"SWR",,false
+SBR-001003,"First Scan Bit",false,"False",,,,,,,"On during first scan in Run or Debug mode",,,,false,,"SBR",,false
+SWR-001530,"First Scan Interval [x100=usec]",false,"0",,,,,,,"Holds the value of the First Scan time",,,,false,,"SWR",,false
+F32-000013,"Flujo_Neg_CH4",false,"0.0",400007,400008,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000012,"Flujo_Neg_CO",false,"0.0",400005,400006,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000011,"Flujo_Neg_CO2",false,"0.0",400003,400004,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000010,"Flujo_Neg_H2",false,"0.0",400001,400002,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000015,"Flujo_Neg_N2",false,"0.0",400011,400012,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000014,"Flujo_Neg_Purga",false,"0.0",400009,400010,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000028,"Flujo_Pos_Aire",false,"0.0",400017,400018,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000029,"Flujo_Pos_N2",false,"0.0",400015,400016,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000016,"Flujo_Pos_O2",false,"0.0",400013,400014,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000041,"Flux_honey",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+S32-000004,"Flux_honey_count",false,"0",,,,,,,,false,false,"0",false,,"S32",,false
+SBR-001007,"Forces Enabled",false,"False",,,,,,,"On if any forces are enabled",,,,false,,"SBR",,false
+US16-000002,"Hum_humi",false,"0",,,,,,,,false,false,"0",false,,"US16",,false
+F32-000040,"Hum_humi%",false,"0.0",400019,400020,,,,,,false,false,"0.0",false,,"F32",,false
+SBR-001015,"I/O Configuration Error",false,"False",,,,,,,"On if actual I/O configuration and project I/O configuration do not match",,,,false,,"SBR",,false
+SBR-001014,"I/O Error",false,"False",,,,,,,"On for any module error (such as a blown fuse)",,,,false,,"SBR",,false
+SWRW-001758,"Identify Module Base Number",false,"0",,,,,,,"base number of module to be identified (See ""Requested Module Name"" tag)",,,,false,,"SWRW",,false
+SWRW-001757,"Identify Module Group Number",false,"0",,,,,,,"group number of module to be identified (See ""Requested Module Name"" tag)",,,,false,,"SWRW",,false
+SBRW-001005,"Identify Module Request bit",false,"False",,,,,,,"set On to refresh ""Requested Module Name"" tag per the 3 ""Identify"" GBS tags",,,,false,,"SBRW",,false
+SWRW-001759,"Identify Module Slot Number",false,"0",,,,,,,"slot number of module to be identified (See ""Requested Module Name"" tag)",,,,false,,"SWRW",,false
+SBRW-001002,"Initiate_New_Date",false,"False",,,,,,,"set On to change clock date (see ""Clock Year Set"" tag)",,,,false,,"SBRW",,false
+SBRW-001001,"Initiate_New_Time",false,"False",,,,,,,"set On to change clock time (see ""Clock Hours Set"" tag)",,,,false,,"SBRW",,false
+C-000010,"Interruptor_Neg_CH4",false,"False",000014,000014,,,,,,false,false,"False",false,,"C",,false
+C-000009,"Interruptor_Neg_CO",false,"False",000013,000013,,,,,,false,false,"False",false,,"C",,false
+C-000008,"Interruptor_Neg_CO2",false,"False",000012,000012,,,,,,false,false,"False",false,,"C",,false
+C-000007,"Interruptor_Neg_H2",false,"False",000011,000011,,,,,,false,false,"False",false,,"C",,false
+C-000012,"Interruptor_Neg_N2",false,"False",000016,000016,,,,,,false,false,"False",false,,"C",,false
+C-000011,"Interruptor_Neg_Purga",false,"False",000015,000015,,,,,,false,false,"False",false,,"C",,false
+C-000015,"Interruptor_Pos_Aire",false,"False",000019,000019,,,,,,false,false,"False",false,,"C",,false
+C-000014,"Interruptor_Pos_N2",false,"False",000018,000018,,,,,,false,false,"False",false,,"C",,false
+C-000013,"Interruptor_Pos_O2",false,"False",000017,000017,,,,,,false,false,"False",false,,"C",,false
+C-000080,"Interruptor_calentador_neg",false,"False",,,,,,,,false,false,"False",false,,"C",,false
+C-000079,"Interruptor_calentador_pos",false,"False",,,,,,,,false,false,"False",false,,"C",,false
+C-000142,"Jog",false,"False",,,,,,,,false,false,"False",false,,"C",,false
+SWR-001504,"Last Logic Scan Time [x100=usec]",false,"0",,,,,,,"most recent logic scan time",,,,false,,"SWR",,false
+SWR-001501,"Last Scan Interval [x100=usec]",false,"0",,,,,,,"most recent overall scan time",,,,false,,"SWR",,false
+C-000098,"Led",false,"False",,,,,,,,false,false,"False",false,,"C",,false
+C-000110,"Led_w",false,"False",,,,,,,,false,false,"False",false,,"C",,false
+MST-0.0.0.1,"MST-0.0.0.1",false,"False",,,,,,,"RS232 Heartbeat Timeout Bit",false,false,"False",false,"MST-0.0.0.1","MST",,false
+MST-0.0.0.2,"MST-0.0.0.2",false,"False",,,,,,,"RS232 Port Buffer Full Bit (95% Full)",false,false,"False",false,"MST-0.0.0.2","MST",,false
+MST-0.0.0.3,"MST-0.0.0.3",false,"False",,,,,,,"RS232 Port Ready Bit",false,false,"False",false,"MST-0.0.0.3","MST",,false
+MST-0.0.0.33,"MST-0.0.0.33",false,"False",,,,,,,"RS485 Heartbeat Timeout Bit",false,false,"False",false,"MST-0.0.0.33","MST",,false
+MST-0.0.0.34,"MST-0.0.0.34",false,"False",,,,,,,"RS485 Port Buffer Full Bit (95% Full)",false,false,"False",false,"MST-0.0.0.34","MST",,false
+MST-0.0.0.35,"MST-0.0.0.35",false,"False",,,,,,,"RS485 Port Ready Bit",false,false,"False",false,"MST-0.0.0.35","MST",,false
+MST-0.0.0.65,"MST-0.0.0.65",false,"False",,,,,,,"Ethernet Heartbeat Timeout Bit",false,false,"False",false,"MST-0.0.0.65","MST",,false
+MST-0.0.0.66,"MST-0.0.0.66",false,"False",,,,,,,"Ethernet Port Buffer Full Bit (95% Full)",false,false,"False",false,"MST-0.0.0.66","MST",,false
+MST-0.0.0.67,"MST-0.0.0.67",false,"False",,,,,,,"Ethernet Port Ready Bit",false,false,"False",false,"MST-0.0.0.67","MST",,false
+MST-0.1.2.25,"MST-0.1.2.25",false,"False",,,,,,,"Module Failed",false,false,"False",false,"MST-0.1.2.25","MST",,false
+MST-0.1.2.26,"MST-0.1.2.26",false,"False",,,,,,,"Missing 24V",false,false,"False",false,"MST-0.1.2.26","MST",,false
+MST-0.1.4.25,"MST-0.1.4.25",false,"False",,,,,,,"Module Failed",false,false,"False",false,"MST-0.1.4.25","MST",,false
+MST-0.1.4.26,"MST-0.1.4.26",false,"False",,,,,,,"Missing 24V",false,false,"False",false,"MST-0.1.4.26","MST",,false
+MST-0.1.4.57,"MST-0.1.4.57",false,"False",,,,,,,"Under Range Error (1)",false,false,"False",false,"MST-0.1.4.57","MST",,false
+MST-0.1.4.58,"MST-0.1.4.58",false,"False",,,,,,,"Under Range Error (2)",false,false,"False",false,"MST-0.1.4.58","MST",,false
+MST-0.1.4.59,"MST-0.1.4.59",false,"False",,,,,,,"Under Range Error (3)",false,false,"False",false,"MST-0.1.4.59","MST",,false
+MST-0.1.4.60,"MST-0.1.4.60",false,"False",,,,,,,"Under Range Error (4)",false,false,"False",false,"MST-0.1.4.60","MST",,false
+MST-0.1.4.61,"MST-0.1.4.61",false,"False",,,,,,,"Under Range Error (5)",false,false,"False",false,"MST-0.1.4.61","MST",,false
+MST-0.1.4.62,"MST-0.1.4.62",false,"False",,,,,,,"Under Range Error (6)",false,false,"False",false,"MST-0.1.4.62","MST",,false
+MST-0.1.4.63,"MST-0.1.4.63",false,"False",,,,,,,"Under Range Error (7)",false,false,"False",false,"MST-0.1.4.63","MST",,false
+MST-0.1.4.64,"MST-0.1.4.64",false,"False",,,,,,,"Under Range Error (8)",false,false,"False",false,"MST-0.1.4.64","MST",,false
+MST-0.1.4.89,"MST-0.1.4.89",false,"False",,,,,,,"Over Range Error (1)",false,false,"False",false,"MST-0.1.4.89","MST",,false
+MST-0.1.4.90,"MST-0.1.4.90",false,"False",,,,,,,"Over Range Error (2)",false,false,"False",false,"MST-0.1.4.90","MST",,false
+MST-0.1.4.91,"MST-0.1.4.91",false,"False",,,,,,,"Over Range Error (3)",false,false,"False",false,"MST-0.1.4.91","MST",,false
+MST-0.1.4.92,"MST-0.1.4.92",false,"False",,,,,,,"Over Range Error (4)",false,false,"False",false,"MST-0.1.4.92","MST",,false
+MST-0.1.4.93,"MST-0.1.4.93",false,"False",,,,,,,"Over Range Error (5)",false,false,"False",false,"MST-0.1.4.93","MST",,false
+MST-0.1.4.94,"MST-0.1.4.94",false,"False",,,,,,,"Over Range Error (6)",false,false,"False",false,"MST-0.1.4.94","MST",,false
+MST-0.1.4.95,"MST-0.1.4.95",false,"False",,,,,,,"Over Range Error (7)",false,false,"False",false,"MST-0.1.4.95","MST",,false
+MST-0.1.4.96,"MST-0.1.4.96",false,"False",,,,,,,"Over Range Error (8)",false,false,"False",false,"MST-0.1.4.96","MST",,false
+MST-0.1.5.25,"MST-0.1.5.25",false,"False",,,,,,,"Module Failed",false,false,"False",false,"MST-0.1.5.25","MST",,false
+MST-0.1.5.27,"MST-0.1.5.27",false,"False",,,,,,,"Module Not Ready",false,false,"False",false,"MST-0.1.5.27","MST",,false
+MST-0.1.5.41,"MST-0.1.5.41",false,"False",,,,,,,"Burnout Error (1)",false,false,"False",false,"MST-0.1.5.41","MST",,false
+MST-0.1.5.42,"MST-0.1.5.42",false,"False",,,,,,,"Burnout Error (2)",false,false,"False",false,"MST-0.1.5.42","MST",,false
+MST-0.1.5.43,"MST-0.1.5.43",false,"False",,,,,,,"Burnout Error (3)",false,false,"False",false,"MST-0.1.5.43","MST",,false
+MST-0.1.5.44,"MST-0.1.5.44",false,"False",,,,,,,"Burnout Error (4)",false,false,"False",false,"MST-0.1.5.44","MST",,false
+MST-0.1.5.57,"MST-0.1.5.57",false,"False",,,,,,,"Under Range Error (1)",false,false,"False",false,"MST-0.1.5.57","MST",,false
+MST-0.1.5.58,"MST-0.1.5.58",false,"False",,,,,,,"Under Range Error (2)",false,false,"False",false,"MST-0.1.5.58","MST",,false
+MST-0.1.5.59,"MST-0.1.5.59",false,"False",,,,,,,"Under Range Error (3)",false,false,"False",false,"MST-0.1.5.59","MST",,false
+MST-0.1.5.60,"MST-0.1.5.60",false,"False",,,,,,,"Under Range Error (4)",false,false,"False",false,"MST-0.1.5.60","MST",,false
+MST-0.1.5.89,"MST-0.1.5.89",false,"False",,,,,,,"Over Range Error (1)",false,false,"False",false,"MST-0.1.5.89","MST",,false
+MST-0.1.5.90,"MST-0.1.5.90",false,"False",,,,,,,"Over Range Error (2)",false,false,"False",false,"MST-0.1.5.90","MST",,false
+MST-0.1.5.91,"MST-0.1.5.91",false,"False",,,,,,,"Over Range Error (3)",false,false,"False",false,"MST-0.1.5.91","MST",,false
+MST-0.1.5.92,"MST-0.1.5.92",false,"False",,,,,,,"Over Range Error (4)",false,false,"False",false,"MST-0.1.5.92","MST",,false
+MST-0.1.6.25,"MST-0.1.6.25",false,"False",,,,,,,"Module Failed",false,false,"False",false,"MST-0.1.6.25","MST",,false
+MST-0.1.6.27,"MST-0.1.6.27",false,"False",,,,,,,"Module Not Ready",false,false,"False",false,"MST-0.1.6.27","MST",,false
+MST-0.1.6.41,"MST-0.1.6.41",false,"False",,,,,,,"Burnout Error (1)",false,false,"False",false,"MST-0.1.6.41","MST",,false
+MST-0.1.6.42,"MST-0.1.6.42",false,"False",,,,,,,"Burnout Error (2)",false,false,"False",false,"MST-0.1.6.42","MST",,false
+MST-0.1.6.43,"MST-0.1.6.43",false,"False",,,,,,,"Burnout Error (3)",false,false,"False",false,"MST-0.1.6.43","MST",,false
+MST-0.1.6.44,"MST-0.1.6.44",false,"False",,,,,,,"Burnout Error (4)",false,false,"False",false,"MST-0.1.6.44","MST",,false
+MST-0.1.6.57,"MST-0.1.6.57",false,"False",,,,,,,"Under Range Error (1)",false,false,"False",false,"MST-0.1.6.57","MST",,false
+MST-0.1.6.58,"MST-0.1.6.58",false,"False",,,,,,,"Under Range Error (2)",false,false,"False",false,"MST-0.1.6.58","MST",,false
+MST-0.1.6.59,"MST-0.1.6.59",false,"False",,,,,,,"Under Range Error (3)",false,false,"False",false,"MST-0.1.6.59","MST",,false
+MST-0.1.6.60,"MST-0.1.6.60",false,"False",,,,,,,"Under Range Error (4)",false,false,"False",false,"MST-0.1.6.60","MST",,false
+MST-0.1.6.89,"MST-0.1.6.89",false,"False",,,,,,,"Over Range Error (1)",false,false,"False",false,"MST-0.1.6.89","MST",,false
+MST-0.1.6.90,"MST-0.1.6.90",false,"False",,,,,,,"Over Range Error (2)",false,false,"False",false,"MST-0.1.6.90","MST",,false
+MST-0.1.6.91,"MST-0.1.6.91",false,"False",,,,,,,"Over Range Error (3)",false,false,"False",false,"MST-0.1.6.91","MST",,false
+MST-0.1.6.92,"MST-0.1.6.92",false,"False",,,,,,,"Over Range Error (4)",false,false,"False",false,"MST-0.1.6.92","MST",,false
+MST-0.1.7.25,"MST-0.1.7.25",false,"False",,,,,,,"Module Failed",false,false,"False",false,"MST-0.1.7.25","MST",,false
+MST-0.1.7.27,"MST-0.1.7.27",false,"False",,,,,,,"Module Not Ready",false,false,"False",false,"MST-0.1.7.27","MST",,false
+MST-0.1.7.41,"MST-0.1.7.41",false,"False",,,,,,,"Burnout Error (1)",false,false,"False",false,"MST-0.1.7.41","MST",,false
+MST-0.1.7.42,"MST-0.1.7.42",false,"False",,,,,,,"Burnout Error (2)",false,false,"False",false,"MST-0.1.7.42","MST",,false
+MST-0.1.7.43,"MST-0.1.7.43",false,"False",,,,,,,"Burnout Error (3)",false,false,"False",false,"MST-0.1.7.43","MST",,false
+MST-0.1.7.44,"MST-0.1.7.44",false,"False",,,,,,,"Burnout Error (4)",false,false,"False",false,"MST-0.1.7.44","MST",,false
+MST-0.1.7.57,"MST-0.1.7.57",false,"False",,,,,,,"Under Range Error (1)",false,false,"False",false,"MST-0.1.7.57","MST",,false
+MST-0.1.7.58,"MST-0.1.7.58",false,"False",,,,,,,"Under Range Error (2)",false,false,"False",false,"MST-0.1.7.58","MST",,false
+MST-0.1.7.59,"MST-0.1.7.59",false,"False",,,,,,,"Under Range Error (3)",false,false,"False",false,"MST-0.1.7.59","MST",,false
+MST-0.1.7.60,"MST-0.1.7.60",false,"False",,,,,,,"Under Range Error (4)",false,false,"False",false,"MST-0.1.7.60","MST",,false
+MST-0.1.7.89,"MST-0.1.7.89",false,"False",,,,,,,"Over Range Error (1)",false,false,"False",false,"MST-0.1.7.89","MST",,false
+MST-0.1.7.90,"MST-0.1.7.90",false,"False",,,,,,,"Over Range Error (2)",false,false,"False",false,"MST-0.1.7.90","MST",,false
+MST-0.1.7.91,"MST-0.1.7.91",false,"False",,,,,,,"Over Range Error (3)",false,false,"False",false,"MST-0.1.7.91","MST",,false
+MST-0.1.7.92,"MST-0.1.7.92",false,"False",,,,,,,"Over Range Error (4)",false,false,"False",false,"MST-0.1.7.92","MST",,false
+SSTRUC-000016,"Mbus_W",false,,,,,,,,"System Structure for Modbus Write",,,,false,,"SSTRUC","MWX",false
+C-000106,"Mbus_W.Complete",false,"False",,,,,,,,false,false,"False",false,,"C","MWX",false
+C-000108,"Mbus_W.Error",false,"False",,,,,,,,false,false,"False",false,,"C","MWX",false
+STR-000016,"Mbus_W.ExcResponse",false,,,,15,,,,,,,,false,,"STR","MWX",false
+C-000105,"Mbus_W.InProgress",false,"False",,,,,,,,false,false,"False",false,,"C","MWX",false
+C-000107,"Mbus_W.Success",false,"False",,,,,,,,false,false,"False",false,,"C","MWX",false
+C-000109,"Mbus_W.Timeout",false,"False",,,,,,,,false,false,"False",false,,"C","MWX",false
+SSTRUC-000015,"Mod_Structure",false,,,,,,,,"System Structure for Modbus Read",,,,false,,"SSTRUC","MRX",false
+C-000101,"Mod_Structure.Complete",false,"False",,,,,,,,false,false,"False",false,,"C","MRX",false
+C-000103,"Mod_Structure.Error",false,"False",,,,,,,,false,false,"False",false,,"C","MRX",false
+STR-000015,"Mod_Structure.ExcResponse",false,,,,15,,,,,,,,false,,"STR","MRX",false
+C-000100,"Mod_Structure.InProgress",false,"False",,,,,,,,false,false,"False",false,,"C","MRX",false
+C-000102,"Mod_Structure.Success",false,"False",,,,,,,,false,false,"False",false,,"C","MRX",false
+C-000104,"Mod_Structure.Timeout",false,"False",,,,,,,,false,false,"False",false,,"C","MRX",false
+C-000141,"Modbus_On",true,"True",,,,,,,,false,false,"False",false,,"C",,false
+C-000122,"Modbus_hum_hum",false,"False",,,,,,,,false,false,"False",false,,"C",,false
+C-000123,"Modbus_hum_temp",false,"False",,,,,,,,false,false,"False",false,,"C",,false
+SBR-001013,"Noncritical Error Bit",false,"False",,,,,,,"On when a noncritical error is active",,,,false,,"SBR",,false
+SWR-000021,"Noncritical Error Log 01",false,"0",,,,,,,"most recent noncritical error",,,,false,,"SWR",,false
+SWR-000022,"Noncritical Error Log 02",false,"0",,,,,,,"2nd most recent noncritical error",,,,false,,"SWR",,false
+SWR-000023,"Noncritical Error Log 03",false,"0",,,,,,,"3rd most recent noncritical error",,,,false,,"SWR",,false
+SWR-000024,"Noncritical Error Log 04",false,"0",,,,,,,"4th most recent noncritical error",,,,false,,"SWR",,false
+SWR-000025,"Noncritical Error Log 05",false,"0",,,,,,,"5th most recent noncritical error",,,,false,,"SWR",,false
+SWR-000026,"Noncritical Error Log 06",false,"0",,,,,,,"6th most recent noncritical error",,,,false,,"SWR",,false
+SWR-000027,"Noncritical Error Log 07",false,"0",,,,,,,"7th most recent noncritical error",,,,false,,"SWR",,false
+SWR-000028,"Noncritical Error Log 08",false,"0",,,,,,,"8th most recent noncritical error",,,,false,,"SWR",,false
+SWR-000029,"Noncritical Error Log 09",false,"0",,,,,,,"9th most recent noncritical error",,,,false,,"SWR",,false
+SWR-000030,"Noncritical Error Log 10",false,"0",,,,,,,"10th most recent noncritical error",,,,false,,"SWR",,false
+SWR-000031,"Noncritical Error Log 11",false,"0",,,,,,,"11th most recent noncritical error",,,,false,,"SWR",,false
+SWR-000032,"Noncritical Error Log 12",false,"0",,,,,,,"12th most recent noncritical error",,,,false,,"SWR",,false
+SWR-000033,"Noncritical Error Log 13",false,"0",,,,,,,"13th most recent noncritical error",,,,false,,"SWR",,false
+SWR-000034,"Noncritical Error Log 14",false,"0",,,,,,,"14th most recent noncritical error",,,,false,,"SWR",,false
+SWR-000035,"Noncritical Error Log 15",false,"0",,,,,,,"15th most recent noncritical error",,,,false,,"SWR",,false
+SWR-000036,"Noncritical Error Log 16",false,"0",,,,,,,"16th most recent noncritical error",,,,false,,"SWR",,false
+SWR-000037,"Noncritical Error Log 17",false,"0",,,,,,,"17th most recent noncritical error",,,,false,,"SWR",,false
+SWR-000038,"Noncritical Error Log 18",false,"0",,,,,,,"18th most recent noncritical error",,,,false,,"SWR",,false
+SWR-000039,"Noncritical Error Log 19",false,"0",,,,,,,"19th most recent noncritical error",,,,false,,"SWR",,false
+SWR-000040,"Noncritical Error Log 20",false,"0",,,,,,,"20th most recent noncritical error",,,,false,,"SWR",,false
+SSTR-000021,"Noncritical Error Log String 01",false,,,,50,,,,"most recent noncritical error message",,,,false,,"SSTR",,false
+SSTR-000022,"Noncritical Error Log String 02",false,,,,50,,,,"2nd most recent noncritical error message",,,,false,,"SSTR",,false
+SSTR-000023,"Noncritical Error Log String 03",false,,,,50,,,,"3rd most recent noncritical error message",,,,false,,"SSTR",,false
+SSTR-000024,"Noncritical Error Log String 04",false,,,,50,,,,"4th most recent noncritical error message",,,,false,,"SSTR",,false
+SSTR-000025,"Noncritical Error Log String 05",false,,,,50,,,,"5th most recent noncritical error message",,,,false,,"SSTR",,false
+SSTR-000026,"Noncritical Error Log String 06",false,,,,50,,,,"6th most recent noncritical error message",,,,false,,"SSTR",,false
+SSTR-000027,"Noncritical Error Log String 07",false,,,,50,,,,"7th most recent noncritical error message",,,,false,,"SSTR",,false
+SSTR-000028,"Noncritical Error Log String 08",false,,,,50,,,,"8th most recent noncritical error message",,,,false,,"SSTR",,false
+SSTR-000029,"Noncritical Error Log String 09",false,,,,50,,,,"9th most recent noncritical error message",,,,false,,"SSTR",,false
+SSTR-000030,"Noncritical Error Log String 10",false,,,,50,,,,"10th most recent noncritical error message",,,,false,,"SSTR",,false
+SSTR-000031,"Noncritical Error Log String 11",false,,,,50,,,,"11th most recent noncritical error message",,,,false,,"SSTR",,false
+SSTR-000032,"Noncritical Error Log String 12",false,,,,50,,,,"12th most recent noncritical error message",,,,false,,"SSTR",,false
+SSTR-000033,"Noncritical Error Log String 13",false,,,,50,,,,"13th most recent noncritical error message",,,,false,,"SSTR",,false
+SSTR-000034,"Noncritical Error Log String 14",false,,,,50,,,,"14th most recent noncritical error message",,,,false,,"SSTR",,false
+SSTR-000035,"Noncritical Error Log String 15",false,,,,50,,,,"15th most recent noncritical error message",,,,false,,"SSTR",,false
+SSTR-000036,"Noncritical Error Log String 16",false,,,,50,,,,"16th most recent noncritical error message",,,,false,,"SSTR",,false
+SSTR-000037,"Noncritical Error Log String 17",false,,,,50,,,,"17th most recent noncritical error message",,,,false,,"SSTR",,false
+SSTR-000038,"Noncritical Error Log String 18",false,,,,50,,,,"18th most recent noncritical error message",,,,false,,"SSTR",,false
+SSTR-000039,"Noncritical Error Log String 19",false,,,,50,,,,"19th most recent noncritical error message",,,,false,,"SSTR",,false
+SSTR-000040,"Noncritical Error Log String 20",false,,,,50,,,,"20th most recent noncritical error message",,,,false,,"SSTR",,false
+SWRW-000251,"Number of Critical Errors",false,"0",,,,,,,"number of critical errors",,,,false,,"SWRW",,false
+SWRW-000252,"Number of Non-critical Errors",false,"0",,,,,,,"number of noncritical errors",,,,false,,"SWRW",,false
+C-000095,"P",false,"False",,,,,,,,false,false,"False",false,,"C",,false
+SSTRUC-000021,"PID_1",false,,,,,,,,"System Structure for PID Loop",,,,false,,"SSTRUC","PID",false
+S32-000031,"PID_1.AlarmHyst",false,"0",,,,,,,,false,false,"0",false,,"S32","PID",false
+S32-000020,"PID_1.BiasTerm",false,"0",,,,,,,,false,false,"0",false,,"S32","PID",false
+C-000151,"PID_1.CascadeCtrlEna",false,"False",,,,,,,,false,false,"False",false,,"C","PID",false
+S32-000061,"PID_1.Control",false,"0",,,,,,,,false,false,"0",false,,"S32","PID",false
+S32-000022,"PID_1.Deadband",false,"0",,,,,,,,false,false,"0",false,,"S32","PID",false
+S32-000019,"PID_1.DerivLimit",false,"0",,,,,,,,false,false,"0",false,,"S32","PID",false
+S32-000029,"PID_1.DevOrange",false,"0",,,,,,,,false,false,"0",false,,"S32","PID",false
+S32-000028,"PID_1.DevYellow",false,"0",,,,,,,,false,false,"0",false,,"S32","PID",false
+C-000150,"PID_1.ErrorSq",false,"False",,,,,,,,false,false,"False",false,,"C","PID",false
+F32-000043,"PID_1.Gain",true,"0.0",,,,,,,,false,false,"0.0",false,,"F32","PID",false
+S32-000025,"PID_1.High",false,"0",,,,,,,,false,false,"0",false,,"S32","PID",false
+S32-000024,"PID_1.HighHigh",false,"0",,,,,,,,false,false,"0",false,,"S32","PID",false
+S32-000060,"PID_1.InitPVBump",false,"0",,,,,,,,false,false,"0",false,,"S32","PID",false
+S32-000007,"PID_1.InputRangeMax",true,"100",,,,,,,,false,false,"0",false,,"S32","PID",false
+S32-000008,"PID_1.InputRangeMin",true,"20",,,,,,,,false,false,"0",false,,"S32","PID",false
+C-000157,"PID_1.IsDevOrange",false,"False",,,,,,,,false,false,"False",false,,"C","PID",false
+C-000156,"PID_1.IsDevYellow",false,"False",,,,,,,,false,false,"False",false,,"C","PID",false
+C-000153,"PID_1.IsHigh",false,"False",,,,,,,,false,false,"False",false,,"C","PID",false
+C-000152,"PID_1.IsHighHigh",false,"False",,,,,,,,false,false,"False",false,,"C","PID",false
+C-000154,"PID_1.IsLow",false,"False",,,,,,,,false,false,"False",false,,"C","PID",false
+C-000155,"PID_1.IsLowLow",false,"False",,,,,,,,false,false,"False",false,,"C","PID",false
+C-000158,"PID_1.IsRateChange",false,"False",,,,,,,,false,false,"False",false,,"C","PID",false
+S32-000018,"PID_1.LoopOffset",true,"0",,,,,,,,false,false,"0",false,,"S32","PID",false
+S32-000057,"PID_1.LoopType",false,"0",,,,,,,,false,false,"0",false,,"S32","PID",false
+S32-000026,"PID_1.Low",false,"0",,,,,,,,false,false,"0",false,,"S32","PID",false
+S32-000027,"PID_1.LowLow",false,"0",,,,,,,,false,false,"0",false,,"S32","PID",false
+S32-000056,"PID_1.MinAlarmHyst",false,"0",,,,,,,,false,false,"0",false,,"S32","PID",false
+S32-000032,"PID_1.MinAutoSetPoint",false,"0",,,,,,,,false,false,"0",false,,"S32","PID",false
+S32-000045,"PID_1.MinBiasTerm",false,"0",,,,,,,,false,false,"0",false,,"S32","PID",false
+S32-000047,"PID_1.MinDeadband",false,"0",,,,,,,,false,false,"0",false,,"S32","PID",false
+S32-000044,"PID_1.MinDerivLimit",false,"0",,,,,,,,false,false,"0",false,,"S32","PID",false
+S32-000054,"PID_1.MinDevOrange",false,"0",,,,,,,,false,false,"0",false,,"S32","PID",false
+S32-000053,"PID_1.MinDevYellow",false,"0",,,,,,,,false,false,"0",false,,"S32","PID",false
+C-000159,"PID_1.MinErrorSq",false,"False",,,,,,,,false,false,"False",false,,"C","PID",false
+S32-000034,"PID_1.MinGain",false,"0",,,,,,,,false,false,"0",false,,"S32","PID",false
+S32-000050,"PID_1.MinHigh",false,"0",,,,,,,,false,false,"0",false,,"S32","PID",false
+S32-000049,"PID_1.MinHighHigh",false,"0",,,,,,,,false,false,"0",false,,"S32","PID",false
+C-000165,"PID_1.MinIsDevOrange",false,"False",,,,,,,,false,false,"False",false,,"C","PID",false
+C-000164,"PID_1.MinIsDevYellow",false,"False",,,,,,,,false,false,"False",false,,"C","PID",false
+C-000161,"PID_1.MinIsHigh",false,"False",,,,,,,,false,false,"False",false,,"C","PID",false
+C-000160,"PID_1.MinIsHighHigh",false,"False",,,,,,,,false,false,"False",false,,"C","PID",false
+C-000162,"PID_1.MinIsLow",false,"False",,,,,,,,false,false,"False",false,,"C","PID",false
+C-000163,"PID_1.MinIsLowLow",false,"False",,,,,,,,false,false,"False",false,,"C","PID",false
+C-000166,"PID_1.MinIsRateChange",false,"False",,,,,,,,false,false,"False",false,,"C","PID",false
+S32-000043,"PID_1.MinLoopOffset",false,"0",,,,,,,,false,false,"0",false,,"S32","PID",false
+S32-000051,"PID_1.MinLow",false,"0",,,,,,,,false,false,"0",false,,"S32","PID",false
+S32-000052,"PID_1.MinLowLow",false,"0",,,,,,,,false,false,"0",false,,"S32","PID",false
+S32-000041,"PID_1.MinOutLowerLim",false,"0",,,,,,,,false,false,"0",false,,"S32","PID",false
+S32-000038,"PID_1.MinOutRangeMax",false,"0",,,,,,,,false,false,"0",false,,"S32","PID",false
+S32-000039,"PID_1.MinOutRangeMin",false,"0",,,,,,,,false,false,"0",false,,"S32","PID",false
+S32-000040,"PID_1.MinOutUpperLim",false,"0",,,,,,,,false,false,"0",false,,"S32","PID",false
+S32-000037,"PID_1.MinOutput",false,"0",,,,,,,,false,false,"0",false,,"S32","PID",false
+S32-000048,"PID_1.MinProcOutPcnt",false,"0",,,,,,,,false,false,"0",false,,"S32","PID",false
+S32-000033,"PID_1.MinProcessVar",false,"0",,,,,,,,false,false,"0",false,,"S32","PID",false
+S32-000036,"PID_1.MinRate",false,"0",,,,,,,,false,false,"0",false,,"S32","PID",false
+S32-000055,"PID_1.MinRateChange",false,"0",,,,,,,,false,false,"0",false,,"S32","PID",false
+S32-000035,"PID_1.MinReset",false,"0",,,,,,,,false,false,"0",false,,"S32","PID",false
+S32-000046,"PID_1.MinSPAccelGain",false,"0",,,,,,,,false,false,"0",false,,"S32","PID",false
+S32-000042,"PID_1.MinSampleRate",false,"0",,,,,,,,false,false,"0",false,,"S32","PID",false
+S32-000016,"PID_1.OutLowerLim",true,"0",,,,,,,,false,false,"0",false,,"S32","PID",false
+S32-000013,"PID_1.OutRangeMax",true,"65535",,,,,,,,false,false,"0",false,,"S32","PID",false
+S32-000014,"PID_1.OutRangeMin",true,"0",,,,,,,,false,false,"0",false,,"S32","PID",false
+S32-000015,"PID_1.OutUpperLim",true,"65535",,,,,,,,false,false,"0",false,,"S32","PID",false
+S32-000012,"PID_1.Output",false,"0",,,,,,,,false,false,"0",false,,"S32","PID",false
+S32-000059,"PID_1.PVDeadband",false,"0",,,,,,,,false,false,"0",false,,"S32","PID",false
+S32-000023,"PID_1.ProcOutPcnt",false,"0",,,,,,,,false,false,"0",false,,"S32","PID",false
+S32-000006,"PID_1.ProcessVar",false,"0",,,,,,,,false,false,"0",false,,"S32","PID",false
+F32-000045,"PID_1.Rate",true,"0.0",,,,,,,,false,false,"0.0",false,,"F32","PID",false
+S32-000030,"PID_1.RateChange",false,"0",,,,,,,,false,false,"0",false,,"S32","PID",false
+F32-000044,"PID_1.Reset",true,"0.0",,,,,,,,false,false,"0.0",false,,"F32","PID",false
+S32-000021,"PID_1.SPAccelGain",false,"0",,,,,,,,false,false,"0",false,,"S32","PID",false
+S32-000017,"PID_1.SampleRate",true,"500",,,,,,,,false,false,"0",false,,"S32","PID",false
+S32-000005,"PID_1.SetPoint",true,"25",400023,400024,,,,,,false,false,"0",false,,"S32","PID",false
+S32-000062,"PID_1.Status",false,"0",,,,,,,,false,false,"0",false,,"S32","PID",false
+S32-000058,"PID_1.TuningType",false,"0",,,,,,,,false,false,"0",false,,"S32","PID",false
+C-000173,"PID_Auto",true,"True",,,,,,,,false,false,"False",false,,"C",,false
+C-000169,"PID_ON",true,"False",000040,000040,,,,,,false,false,"False",false,,"C",,false
+SSTR-000105,"PLC LCD Display[CPU]",false,,,,50,,,,"PLC LCD Data Display",,,,false,,"SSTR",,false
+SWR-001505,"Peak Logic Scan Time [x100=usec]",false,"0",,,,,,,"longest logic scan time",,,,false,,"SWR",,false
+SWR-001502,"Peak Scan Interval [x100=usec]",false,"0",,,,,,,"longest overall scan time",,,,false,,"SWR",,false
+SBRW-001006,"Portable Memory Device Eject",false,"False",,,,,,,"Users set to 1(ON) and the system reset to 0 as eject is completed",,,,false,,"SBRW",,false
+SBR-000001,"Portable Memory Device Ready",false,"False",,,,,,,"PMD is installed and ready to use",,,,false,,"SBR",,false
+F32-000017,"Preheater_neg_SP",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000018,"Preheater_pos_SP",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000034,"Preison_Salida_neg_gain",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000035,"Preison_Salida_neg_rate",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000024,"Preison_Salida_neg_reset",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000023,"Preison_Salida_pos_gain",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000022,"Preison_Salida_pos_rate",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000021,"Preison_Salida_pos_reset",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000006,"Presion_In_neg",false,"0.0",400205,400206,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000030,"Presion_In_neg_sens",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000009,"Presion_In_pos",false,"0.0",400207,400208,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000031,"Presion_In_pos_sens",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000007,"Presion_Out_neg",false,"0.0",400201,400202,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000019,"Presion_Out_neg_SP",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000032,"Presion_Out_neg_sens",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000008,"Presion_Out_pos",false,"0.0",400203,400204,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000020,"Presion_Out_pos_SP",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000033,"Presion_Out_pos_sens",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+SWR-001512,"Program Memory Size",false,"0",,,,,,,"current percentage of CPU memory used by the project",,,,false,,"SWR",,false
+C-000097,"Rampa_called",false,"False",,,,,,,,false,false,"False",false,,"C",,false
+SBRW-001003,"Refresh Critical Error Log",false,"False",,,,,,,"set On to refresh the ""Critical Error Log""",,,,false,,"SBRW",,false
+SBRW-001004,"Refresh Non-Critical Error Log",false,"False",,,,,,,"set On to refresh the ""Noncritical Error Log""",,,,false,,"SBRW",,false
+C-000082,"Rele_Precalentador_neg",false,"False",,,,,,,,false,false,"False",false,,"C",,false
+C-000081,"Rele_Precalentador_pos",false,"False",,,,,,,,false,false,"False",false,,"C",,false
+SSTR-000103,"Requested Module Name",false,,,,50,,,,"name of specified module (see ""Identify Module Request bit"")",,,,false,,"SSTR",,false
+C-000096,"SIMULATOR",true,"False",001002,001002,,,,,,false,false,"False",false,,"C",,false
+SSTRUC-000014,"SetPoint_preheater_neg",false,,,,,,,,"System Structure for Modbus Write",,,,false,,"SSTRUC","MWX",false
+C-000089,"SetPoint_preheater_neg.Complete",false,"False",,,,,,,,false,false,"False",false,,"C","MWX",false
+C-000091,"SetPoint_preheater_neg.Error",false,"False",,,,,,,,false,false,"False",false,,"C","MWX",false
+STR-000014,"SetPoint_preheater_neg.ExcResponse",false,,,,15,,,,,,,,false,,"STR","MWX",false
+C-000088,"SetPoint_preheater_neg.InProgress",false,"False",,,,,,,,false,false,"False",false,,"C","MWX",false
+C-000090,"SetPoint_preheater_neg.Success",false,"False",,,,,,,,false,false,"False",false,,"C","MWX",false
+C-000092,"SetPoint_preheater_neg.Timeout",false,"False",,,,,,,,false,false,"False",false,,"C","MWX",false
+SSTRUC-000013,"SetPoint_preheater_pos",false,,,,,,,,"System Structure for Modbus Write",,,,false,,"SSTRUC","MWX",false
+C-000084,"SetPoint_preheater_pos.Complete",false,"False",,,,,,,,false,false,"False",false,,"C","MWX",false
+C-000086,"SetPoint_preheater_pos.Error",false,"False",,,,,,,,false,false,"False",false,,"C","MWX",false
+STR-000013,"SetPoint_preheater_pos.ExcResponse",false,,,,15,,,,,,,,false,,"STR","MWX",false
+C-000083,"SetPoint_preheater_pos.InProgress",false,"False",,,,,,,,false,false,"False",false,,"C","MWX",false
+C-000085,"SetPoint_preheater_pos.Success",false,"False",,,,,,,,false,false,"False",false,,"C","MWX",false
+C-000087,"SetPoint_preheater_pos.Timeout",false,"False",,,,,,,,false,false,"False",false,,"C","MWX",false
+SSTRUC-000005,"Set_Flujo_Neg_CH4",false,,,,,,,,"System Structure for Modbus Write",,,,false,,"SSTRUC","MWX",false
+C-000040,"Set_Flujo_Neg_CH4.Complete",false,"False",,,,,,,,false,false,"False",false,,"C","MWX",false
+C-000042,"Set_Flujo_Neg_CH4.Error",false,"False",,,,,,,,false,false,"False",false,,"C","MWX",false
+STR-000005,"Set_Flujo_Neg_CH4.ExcResponse",false,,,,15,,,,,,,,false,,"STR","MWX",false
+C-000039,"Set_Flujo_Neg_CH4.InProgress",false,"False",,,,,,,,false,false,"False",false,,"C","MWX",false
+C-000041,"Set_Flujo_Neg_CH4.Success",false,"False",,,,,,,,false,false,"False",false,,"C","MWX",false
+C-000043,"Set_Flujo_Neg_CH4.Timeout",false,"False",,,,,,,,false,false,"False",false,,"C","MWX",false
+SSTRUC-000003,"Set_Flujo_Neg_CO",false,,,,,,,,"System Structure for Modbus Write",,,,false,,"SSTRUC","MWX",false
+C-000030,"Set_Flujo_Neg_CO.Complete",false,"False",,,,,,,,false,false,"False",false,,"C","MWX",false
+C-000032,"Set_Flujo_Neg_CO.Error",false,"False",,,,,,,,false,false,"False",false,,"C","MWX",false
+STR-000003,"Set_Flujo_Neg_CO.ExcResponse",false,,,,15,,,,,,,,false,,"STR","MWX",false
+C-000029,"Set_Flujo_Neg_CO.InProgress",false,"False",,,,,,,,false,false,"False",false,,"C","MWX",false
+C-000031,"Set_Flujo_Neg_CO.Success",false,"False",,,,,,,,false,false,"False",false,,"C","MWX",false
+C-000033,"Set_Flujo_Neg_CO.Timeout",false,"False",,,,,,,,false,false,"False",false,,"C","MWX",false
+SSTRUC-000002,"Set_Flujo_Neg_CO2",false,,,,,,,,"System Structure for Modbus Write",,,,false,,"SSTRUC","MWX",false
+C-000025,"Set_Flujo_Neg_CO2.Complete",false,"False",,,,,,,,false,false,"False",false,,"C","MWX",false
+C-000027,"Set_Flujo_Neg_CO2.Error",false,"False",,,,,,,,false,false,"False",false,,"C","MWX",false
+STR-000002,"Set_Flujo_Neg_CO2.ExcResponse",false,,,,15,,,,,,,,false,,"STR","MWX",false
+C-000024,"Set_Flujo_Neg_CO2.InProgress",false,"False",,,,,,,,false,false,"False",false,,"C","MWX",false
+C-000026,"Set_Flujo_Neg_CO2.Success",false,"False",,,,,,,,false,false,"False",false,,"C","MWX",false
+C-000028,"Set_Flujo_Neg_CO2.Timeout",false,"False",,,,,,,,false,false,"False",false,,"C","MWX",false
+SSTRUC-000004,"Set_Flujo_Neg_CccH4",false,,,,,,,,"System Structure for Modbus Write",,,,false,,"SSTRUC","MWX",false
+C-000035,"Set_Flujo_Neg_CccH4.Complete",false,"False",,,,,,,,false,false,"False",false,,"C","MWX",false
+C-000037,"Set_Flujo_Neg_CccH4.Error",false,"False",,,,,,,,false,false,"False",false,,"C","MWX",false
+STR-000004,"Set_Flujo_Neg_CccH4.ExcResponse",false,,,,15,,,,,,,,false,,"STR","MWX",false
+C-000034,"Set_Flujo_Neg_CccH4.InProgress",false,"False",,,,,,,,false,false,"False",false,,"C","MWX",false
+C-000036,"Set_Flujo_Neg_CccH4.Success",false,"False",,,,,,,,false,false,"False",false,,"C","MWX",false
+C-000038,"Set_Flujo_Neg_CccH4.Timeout",false,"False",,,,,,,,false,false,"False",false,,"C","MWX",false
+SSTRUC-000001,"Set_Flujo_Neg_H2",false,,,,,,,,"System Structure for Modbus Write",,,,false,,"SSTRUC","MWX",false
+C-000020,"Set_Flujo_Neg_H2.Complete",false,"False",,,,,,,,false,false,"False",false,,"C","MWX",false
+C-000022,"Set_Flujo_Neg_H2.Error",false,"False",,,,,,,,false,false,"False",false,,"C","MWX",false
+STR-000001,"Set_Flujo_Neg_H2.ExcResponse",false,,,,15,,,,,,,,false,,"STR","MWX",false
+C-000019,"Set_Flujo_Neg_H2.InProgress",false,"False",,,,,,,,false,false,"False",false,,"C","MWX",false
+C-000021,"Set_Flujo_Neg_H2.Success",false,"False",,,,,,,,false,false,"False",false,,"C","MWX",false
+C-000023,"Set_Flujo_Neg_H2.Timeout",false,"False",,,,,,,,false,false,"False",false,,"C","MWX",false
+SSTRUC-000007,"Set_Flujo_Neg_N2",false,,,,,,,,"System Structure for Modbus Write",,,,false,,"SSTRUC","MWX",false
+C-000050,"Set_Flujo_Neg_N2.Complete",false,"False",,,,,,,,false,false,"False",false,,"C","MWX",false
+C-000052,"Set_Flujo_Neg_N2.Error",false,"False",,,,,,,,false,false,"False",false,,"C","MWX",false
+STR-000007,"Set_Flujo_Neg_N2.ExcResponse",false,,,,15,,,,,,,,false,,"STR","MWX",false
+C-000049,"Set_Flujo_Neg_N2.InProgress",false,"False",,,,,,,,false,false,"False",false,,"C","MWX",false
+C-000051,"Set_Flujo_Neg_N2.Success",false,"False",,,,,,,,false,false,"False",false,,"C","MWX",false
+C-000053,"Set_Flujo_Neg_N2.Timeout",false,"False",,,,,,,,false,false,"False",false,,"C","MWX",false
+SSTRUC-000006,"Set_Flujo_Neg_Purga",false,,,,,,,,"System Structure for Modbus Write",,,,false,,"SSTRUC","MWX",false
+C-000045,"Set_Flujo_Neg_Purga.Complete",false,"False",,,,,,,,false,false,"False",false,,"C","MWX",false
+C-000047,"Set_Flujo_Neg_Purga.Error",false,"False",,,,,,,,false,false,"False",false,,"C","MWX",false
+STR-000006,"Set_Flujo_Neg_Purga.ExcResponse",false,,,,15,,,,,,,,false,,"STR","MWX",false
+C-000044,"Set_Flujo_Neg_Purga.InProgress",false,"False",,,,,,,,false,false,"False",false,,"C","MWX",false
+C-000046,"Set_Flujo_Neg_Purga.Success",false,"False",,,,,,,,false,false,"False",false,,"C","MWX",false
+C-000048,"Set_Flujo_Neg_Purga.Timeout",false,"False",,,,,,,,false,false,"False",false,,"C","MWX",false
+SSTRUC-000010,"Set_Flujo_Pos_Aire",false,,,,,,,,"System Structure for Modbus Write",,,,false,,"SSTRUC","MWX",false
+C-000065,"Set_Flujo_Pos_Aire.Complete",false,"False",,,,,,,,false,false,"False",false,,"C","MWX",false
+C-000067,"Set_Flujo_Pos_Aire.Error",false,"False",,,,,,,,false,false,"False",false,,"C","MWX",false
+STR-000010,"Set_Flujo_Pos_Aire.ExcResponse",false,,,,15,,,,,,,,false,,"STR","MWX",false
+C-000064,"Set_Flujo_Pos_Aire.InProgress",false,"False",,,,,,,,false,false,"False",false,,"C","MWX",false
+C-000066,"Set_Flujo_Pos_Aire.Success",false,"False",,,,,,,,false,false,"False",false,,"C","MWX",false
+C-000068,"Set_Flujo_Pos_Aire.Timeout",false,"False",,,,,,,,false,false,"False",false,,"C","MWX",false
+SSTRUC-000009,"Set_Flujo_Pos_N2",false,,,,,,,,"System Structure for Modbus Write",,,,false,,"SSTRUC","MWX",false
+C-000060,"Set_Flujo_Pos_N2.Complete",false,"False",,,,,,,,false,false,"False",false,,"C","MWX",false
+C-000062,"Set_Flujo_Pos_N2.Error",false,"False",,,,,,,,false,false,"False",false,,"C","MWX",false
+STR-000009,"Set_Flujo_Pos_N2.ExcResponse",false,,,,15,,,,,,,,false,,"STR","MWX",false
+C-000059,"Set_Flujo_Pos_N2.InProgress",false,"False",,,,,,,,false,false,"False",false,,"C","MWX",false
+C-000061,"Set_Flujo_Pos_N2.Success",false,"False",,,,,,,,false,false,"False",false,,"C","MWX",false
+C-000063,"Set_Flujo_Pos_N2.Timeout",false,"False",,,,,,,,false,false,"False",false,,"C","MWX",false
+SSTRUC-000008,"Set_Flujo_Pos_O2",false,,,,,,,,"System Structure for Modbus Write",,,,false,,"SSTRUC","MWX",false
+C-000055,"Set_Flujo_Pos_O2.Complete",false,"False",,,,,,,,false,false,"False",false,,"C","MWX",false
+C-000057,"Set_Flujo_Pos_O2.Error",false,"False",,,,,,,,false,false,"False",false,,"C","MWX",false
+STR-000008,"Set_Flujo_Pos_O2.ExcResponse",false,,,,15,,,,,,,,false,,"STR","MWX",false
+C-000054,"Set_Flujo_Pos_O2.InProgress",false,"False",,,,,,,,false,false,"False",false,,"C","MWX",false
+C-000056,"Set_Flujo_Pos_O2.Success",false,"False",,,,,,,,false,false,"False",false,,"C","MWX",false
+C-000058,"Set_Flujo_Pos_O2.Timeout",false,"False",,,,,,,,false,false,"False",false,,"C","MWX",false
+F32-000042,"Sp_T_humidificador",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+SBR-001010,"Switch in Run Bit",false,"False",,,,,,,"On if CPU Switch is up (Run)",,,,false,,"SBR",,false
+SBR-001011,"Switch in Stop Bit",false,"False",,,,,,,"On if CPU Switch is down (Stop)",,,,false,,"SBR",,false
+SSTRUC-000011,"THorno_Present_Value",false,,,,,,,,"System Structure for Modbus Read",,,,false,,"SSTRUC","MRX",false
+C-000070,"THorno_Present_Value.Complete",false,"False",,,,,,,,false,false,"False",false,,"C","MRX",false
+C-000072,"THorno_Present_Value.Error",false,"False",,,,,,,,false,false,"False",false,,"C","MRX",false
+STR-000011,"THorno_Present_Value.ExcResponse",false,,,,15,,,,,,,,false,,"STR","MRX",false
+C-000069,"THorno_Present_Value.InProgress",false,"False",,,,,,,,false,false,"False",false,,"C","MRX",false
+C-000071,"THorno_Present_Value.Success",false,"False",,,,,,,,false,false,"False",false,,"C","MRX",false
+C-000073,"THorno_Present_Value.Timeout",false,"False",,,,,,,,false,false,"False",false,,"C","MRX",false
+F32-000026,"THorno_SP",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+SSTRUC-000012,"THorno_SetPoint",false,,,,,,,,"System Structure for Modbus Write",,,,false,,"SSTRUC","MWX",false
+C-000075,"THorno_SetPoint.Complete",false,"False",,,,,,,,false,false,"False",false,,"C","MWX",false
+C-000077,"THorno_SetPoint.Error",false,"False",,,,,,,,false,false,"False",false,,"C","MWX",false
+STR-000012,"THorno_SetPoint.ExcResponse",false,,,,15,,,,,,,,false,,"STR","MWX",false
+C-000074,"THorno_SetPoint.InProgress",false,"False",,,,,,,,false,false,"False",false,,"C","MWX",false
+C-000076,"THorno_SetPoint.Success",false,"False",,,,,,,,false,false,"False",false,,"C","MWX",false
+C-000078,"THorno_SetPoint.Timeout",false,"False",,,,,,,,false,false,"False",false,,"C","MWX",false
+F32-000025,"THorno_slope",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+SSTRUC-000022,"TMR",false,,,,,,,,"System Structure for Simple Timer",,,,false,,"SSTRUC","STMR",false
+S32-000064,"TMR.Current",false,"0",,,,,,,,false,false,"0",false,,"S32","STMR",false
+C-000167,"TMR.Done",false,"False",,,,,,,,false,false,"False",false,,"C","STMR",false
+S32-000063,"TMR.Preset",true,"200",,,,,,,,false,false,"0",false,,"S32","STMR",false
+SSTRUC-000023,"TMR2",false,,,,,,,,"System Structure for Simple Timer",,,,false,,"SSTRUC","STMR",false
+S32-000067,"TMR2.Current",false,"0",,,,,,,,false,false,"0",false,,"S32","STMR",false
+C-000168,"TMR2.Done",false,"False",,,,,,,,false,false,"False",false,,"C","STMR",false
+S32-000066,"TMR2.Preset",false,"0",,,,,,,,false,false,"0",false,,"S32","STMR",false
+F32-000001,"T_Horno",false,"0.0",400100,400101,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000027,"T_Horno_PV",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000004,"T_out_neg",false,"0.0",400108,400109,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000005,"T_out_pos",false,"0.0",400106,400107,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000003,"T_preH_neg",false,"0.0",400104,400105,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000002,"T_preH_pos",false,"0.0",400102,400103,,,,,,false,false,"0.0",false,,"F32",,false
+AIF32-0.1.6.1,"Tc_2K_4_1",false,"0.0",,,,,,,,false,false,"0.0",false,"AIF32-0.1.6.1","AIF32",,false
+AIF32-0.1.6.2,"Tc_2K_4_2",false,"0.0",,,,,,,,false,false,"0.0",false,"AIF32-0.1.6.2","AIF32",,false
+AIF32-0.1.6.3,"Tc_2K_4_3",false,"0.0",,,,,,,,false,false,"0.0",false,"AIF32-0.1.6.3","AIF32",,false
+AIF32-0.1.6.4,"Tc_2K_4_4",false,"0.0",,,,,,,,false,false,"0.0",false,"AIF32-0.1.6.4","AIF32",,false
+AIF32-0.1.7.1,"Tc_3K_4_1",false,"0.0",,,,,,,,false,false,"0.0",false,"AIF32-0.1.7.1","AIF32",,false
+AIF32-0.1.7.2,"Tc_3K_4_2",false,"0.0",,,,,,,,false,false,"0.0",false,"AIF32-0.1.7.2","AIF32",,false
+AIF32-0.1.7.3,"Tc_3K_4_3",false,"0.0",,,,,,,,false,false,"0.0",false,"AIF32-0.1.7.3","AIF32",,false
+AIF32-0.1.7.4,"Tc_3K_4_4",false,"0.0",,,,,,,,false,false,"0.0",false,"AIF32-0.1.7.4","AIF32",,false
+US16-000001,"Temp_humi",false,"0",,,,,,,,false,false,"0",false,,"US16",,false
+F32-000037,"Temp_humi_C",false,"0.0",400021,400022,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000039,"Temp_humi_V",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+SSTRUC-000017,"Temp_humi_struc",false,,,,,,,,"System Structure for Modbus Read",,,,false,,"SSTRUC","MRX",false
+C-000113,"Temp_humi_struc.Complete",false,"False",,,,,,,,false,false,"False",false,,"C","MRX",false
+C-000115,"Temp_humi_struc.Error",false,"False",,,,,,,,false,false,"False",false,,"C","MRX",false
+STR-000017,"Temp_humi_struc.ExcResponse",false,,,,15,,,,,,,,false,,"STR","MRX",false
+C-000112,"Temp_humi_struc.InProgress",false,"False",,,,,,,,false,false,"False",false,,"C","MRX",false
+C-000114,"Temp_humi_struc.Success",false,"False",,,,,,,,false,false,"False",false,,"C","MRX",false
+C-000116,"Temp_humi_struc.Timeout",false,"False",,,,,,,,false,false,"False",false,,"C","MRX",false
+C-000099,"Test_Led",false,"False",,,,,,,,false,false,"False",false,,"C",,false
+S32-000065,"Time_Prop",false,"0",,,,,,,,false,false,"0",false,,"S32",,false
+SWR-001507,"Total Scan Count1",false,"0",,,,,,,"total number of scans since entering Run mode (S32 low word)",,,,false,,"SWR",,false
+SWR-001508,"Total Scan Count2",false,"0",,,,,,,"total number of scans since entering Run mode (S32 high word)",,,,false,,"SWR",,false
+C-000004,"VS_Neg_CH4",false,"False",000004,000004,,,,,,false,false,"False",false,,"C",,false
+C-000003,"VS_Neg_CO",false,"False",000003,000003,,,,,,false,false,"False",false,,"C",,false
+C-000002,"VS_Neg_CO2",false,"False",000002,000002,,,,,,false,false,"False",false,,"C",,false
+C-000001,"VS_Neg_H2",false,"False",000001,000001,,,,,,false,false,"False",false,,"C",,false
+C-000006,"VS_Neg_N2",false,"False",000006,000006,,,,,,false,false,"False",false,,"C",,false
+C-000005,"VS_Neg_Purga",false,"False",000005,000005,,,,,,false,false,"False",false,,"C",,false
+C-000018,"VS_Pos_Aire",false,"False",000009,000009,,,,,,false,false,"False",false,,"C",,false
+C-000017,"VS_Pos_N2",false,"False",000008,000008,,,,,,false,false,"False",false,,"C",,false
+C-000016,"VS_Pos_O2",false,"False",000007,000007,,,,,,false,false,"False",false,,"C",,false
+SBR-001016,"Watchdog Timeout",false,"False",,,,,,,"On if the actual scan time has exceeded the limit set in the project",,,,false,,"SBR",,false
+C-000171,"Zunchos_hum",true,"False",,,,,,,,false,false,"False",false,,"C",,false
+SSTRUC-000020,"flux_struc",false,,,,,,,,"System Structure for Modbus Read",,,,false,,"SSTRUC","MRX",false
+C-000144,"flux_struc.Complete",false,"False",,,,,,,,false,false,"False",false,,"C","MRX",false
+C-000146,"flux_struc.Error",false,"False",,,,,,,,false,false,"False",false,,"C","MRX",false
+STR-000019,"flux_struc.ExcResponse",false,,,,15,,,,,,,,false,,"STR","MRX",false
+C-000143,"flux_struc.InProgress",false,"False",,,,,,,,false,false,"False",false,,"C","MRX",false
+C-000145,"flux_struc.Success",false,"False",,,,,,,,false,false,"False",false,,"C","MRX",false
+C-000147,"flux_struc.Timeout",false,"False",,,,,,,,false,false,"False",false,,"C","MRX",false
+SSTRUC-000018,"hum_humi_strc",false,,,,,,,,"System Structure for Modbus Read",,,,false,,"SSTRUC","MRX",false
+C-000118,"hum_humi_strc.Complete",false,"False",,,,,,,,false,false,"False",false,,"C","MRX",false
+C-000120,"hum_humi_strc.Error",false,"False",,,,,,,,false,false,"False",false,,"C","MRX",false
+STR-000018,"hum_humi_strc.ExcResponse",false,,,,15,,,,,,,,false,,"STR","MRX",false
+C-000117,"hum_humi_strc.InProgress",false,"False",,,,,,,,false,false,"False",false,,"C","MRX",false
+C-000119,"hum_humi_strc.Success",false,"False",,,,,,,,false,false,"False",false,,"C","MRX",false
+C-000121,"hum_humi_strc.Timeout",false,"False",,,,,,,,false,false,"False",false,,"C","MRX",false
+C-000148,"run",false,"False",,,,,,,,false,false,"False",false,,"C",,false
+F32-000036,"sp_T_horno",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+C-000172,"val_3_way",true,"False",000041,000041,,,,,,false,false,"False",false,,"C",,false

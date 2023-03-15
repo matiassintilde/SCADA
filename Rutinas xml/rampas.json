@@ -1,0 +1,19 @@
+{
+  "root": {
+    "Paso_1": [
+      "Rampa de Temperatura:T horno 8.0 °C en 4 segundos ",
+      "Rampa de Temperatura:T gas in pos 7.0 °C en 4 segundos ",
+      "Rampa de Flujo:CO2 8.0 nl/min en 6 segundos ",
+      "Rampa de Presión:P out neg 6.0 Pa en 7 segundos ",
+      "Rampa de Corriente:Corriente 6.0 A en 6 segundos "
+    ],
+    "Comentarios": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  }
+}
