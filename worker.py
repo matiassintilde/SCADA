@@ -1,4 +1,4 @@
-from unittest import expectedFailure
+from unittest import expectedFailure #Intento fallido de evitar error al cerrar la app
 from PyQt5.QtCore import  QObject, pyqtSignal, pyqtSlot
 from PyQt5.QtWidgets import QFileDialog
 import e_visa
@@ -83,8 +83,8 @@ class Worker(QObject):
         
         
         while self.running:           
-            """Esta parte lee los valores de las variables del PLC como palabras y las envía como lista
-            a la thread principal a través de las funciones on_xxx_ready"""
+            """Esta parte lee los valores de las variables del PLC como palabras y las guarda
+            en el registro y envía la señal a la thread principal para actualizar los valores."""
             Reg = dict(zip(headersCSV,zeros(len(headersCSV)))) # todos los valores empiezan por 0
             MS = datetime.datetime.now().strftime('%f')[0:2]
             Reg["time"] = datetime.datetime.now().strftime("%m-%d %H:%M:%S")+'.'+ MS
@@ -165,7 +165,7 @@ class Worker(QObject):
 
             #-------------- Signal ---------------
             try:
-                self.regDict_ready.emit(Reg)
+                self.regDict_ready.emit(Reg) #emite la señal que llegaron nuevos datos
             except:
                 pass
 

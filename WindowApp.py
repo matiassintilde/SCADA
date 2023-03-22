@@ -380,6 +380,15 @@ class GasControl(qtw.QMainWindow):
     #XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
     
     def editItem(self,*args):
+        return
+        ### Esta funcionalidad NO está terminada
+        # Hace falta asegurarse que no se pueda cambiar el nombre de
+        # los pasos (esto rompería la interpretacion de las rutinas)
+        # asegurarse que el nuevo texto se reemplace en el lugar correcto
+        # establecer un control de edición que impida que se coloquen
+        # valores fuera de rango o sin sentido
+        # agregar función para reecribir la descripción (primera columna)
+        #  de la instruccion luego del cambio  
         """Función para editar el +arbol haciendo doble click"""
         self.printL('Edit Item ')
         self.tree = self.ui.treeWidget
@@ -2034,7 +2043,6 @@ class GasControl(qtw.QMainWindow):
         en configuracion. una vez establecida la conexión se pide que se guarde un archio csv para
         llevar el registro"""
         try:
-            
             self.ip = self.configuracion["ip"] 
             self.port = self.configuracion["puerto"] 
             qtw.QMessageBox.information(self,'Estableciendo Conexión ','Comprobando conexión..')
@@ -2057,7 +2065,6 @@ class GasControl(qtw.QMainWindow):
             #Checkeo de estado de variables PLC
             self.updateModbus()
             
-
         except Exception as e:
             qtw.QMessageBox.critical(self,'Error','No se pudo establecer la conexión con el PLC.')
             self.printL(e)
