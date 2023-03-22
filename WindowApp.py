@@ -380,7 +380,7 @@ class GasControl(qtw.QMainWindow):
     #XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
     
     def editItem(self,*args):
-        return
+        return 
         ### Esta funcionalidad NO está terminada
         # Hace falta asegurarse que no se pueda cambiar el nombre de
         # los pasos (esto rompería la interpretacion de las rutinas)
